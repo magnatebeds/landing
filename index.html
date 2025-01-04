@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGNATEBEDS - Luxusné postele</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">MAGNATEBEDS</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#vyhody" class="nav-link">VÝHODY</a>
+                <a href="#specifikacie" class="nav-link">ŠPECIFIKÁCIE</a>
+                <a href="#konfigurator" class="nav-link">KONFIGURÁTOR</a>
+                <a href="#kontakt" class="nav-link">KONTAKT</a>
+                <div class="social-links">
+                    <a href="https://instagram.com/magnatebeds" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com/magnatebeds" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="reveal-text">LUXUSNÁ POSTEĽ<br>S DOŽIVOTNOU ZÁRUKOU</h1>
+                <p class="reveal-text delay-1">Jedinečný dizajn. Maximálna odolnosť. Prémiové materiály.</p>
+                <a href="#configurator" class="cta-button reveal-text delay-2">KONFIGUROVAŤ</a>
+            </div>
+            <div class="hero-image">
+                <img src="s-rostami.png" alt="Luxusná posteľ Magnatebeds">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Features Section -->
+        <section class="features">
+            <div class="feature-item reveal">
+                <div class="feature-image">
+                    <img src="bez-rostov.png" alt="Konštrukcia postele">
+                </div>
+                <div class="feature-content">
+                    <h2>Prémiová konštrukcia</h2>
+                    <p>Oceľový rám s doživotnou zárukou a vymeniteľným masívnym drevom na bokoch zaručuje maximálnu stabilitu a dlhú životnosť.</p>
+                </div>
+            </div>
+
+            <div class="feature-item reverse reveal">
+                <div class="feature-image">
+                    <svg class="feature-icon" viewBox="0 0 200 200">
+                        <!-- Základný rám postele -->
+                        <rect x="20" y="140" width="160" height="20" fill="#0a0a0a"/>
+                        <!-- Matrac -->
+                        <rect x="25" y="80" width="150" height="60" fill="none" stroke="#0a0a0a" stroke-width="2" class="mattress-animation"/>
+                        <!-- Úložný priestor -->
+                        <rect x="25" y="145" width="150" height="40" fill="#f8f8f8" stroke="#0a0a0a" stroke-width="2"/>
+                        <!-- Mechanizmus -->
+                        <path d="M35,140 L35,180 M165,140 L165,180" stroke="#0a0a0a" stroke-width="2"/>
+                        <path d="M35,160 L55,160 M145,160 L165,160" stroke="#0a0a0a" stroke-width="2"/>
+                        <!-- Animovaná šípka -->
+                        <g class="arrow-animation">
+                            <path d="M100,110 L100,130" stroke="#0a0a0a" stroke-width="2"/>
+                            <polygon points="95,125 100,135 105,125" fill="#0a0a0a"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h2>Skrytý úložný priestor</h2>
+                    <p>Priestranný úložný priestor s kvalitným výklopným mechanizmom pre jednoduché každodenné používanie.</p>
+                </div>
+            </div>
+
+            <div class="feature-item reveal">
+                <div class="feature-image">
+                    <svg class="feature-icon" viewBox="0 0 200 200">
+                        <!-- Centrálny rám -->
+                        <rect x="50" y="40" width="100" height="120" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+                        <!-- Vymeniteľné panely -->
+                        <g class="panel-animation">
+                            <!-- Ľavý panel -->
+                            <rect x="30" y="50" width="20" height="100" fill="#f8f8f8" stroke="#0a0a0a" stroke-width="2"/>
+                            <!-- Pravý panel -->
+                            <rect x="150" y="50" width="20" height="100" fill="#f8f8f8" stroke="#0a0a0a" stroke-width="2"/>
+                        </g>
+                        <!-- Rotujúce šípky -->
+                        <g class="rotate-animation">
+                            <path d="M20,100 A80,80 0 0,1 100,20" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+                            <path d="M180,100 A80,80 0 0,0 100,180" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+                            <polygon points="15,100 25,95 25,105" fill="#0a0a0a"/>
+                            <polygon points="185,100 175,95 175,105" fill="#0a0a0a"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h2>Vymeniteľný dizajn</h2>
+                    <p>Možnosť kedykoľvek zmeniť vzhľad postele výmenou bočných drevených panelov podľa vašich predstáv.</p>
+                </div>
+            </div>
+
+            <div class="feature-item reverse reveal">
+                <div class="feature-image">
+                    <svg class="feature-icon" viewBox="0 0 200 200">
+                        <!-- Vonkajší kruh -->
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+                        <!-- Štít -->
+                        <path d="M100,40 L140,60 L140,120 L100,140 L60,120 L60,60 Z" 
+                              fill="none" 
+                              stroke="#0a0a0a" 
+                              stroke-width="2"
+                              class="shield-animation"/>
+                        <!-- Nekonečný symbol -->
+                        <path d="M80,100 C80,89 89,80 100,80 C111,80 120,89 120,100 C120,111 111,120 100,120 C89,120 80,111 80,100"
+                              fill="none" 
+                              stroke="#0a0a0a" 
+                              stroke-width="2"
+                              class="infinity-animation"/>
+                        <!-- Hviezdy -->
+                        <g class="stars-animation">
+                            <path d="M160,80 L163,87 L170,88 L165,93 L166,100 L160,97 L154,100 L155,93 L150,88 L157,87 Z" fill="#0a0a0a"/>
+                            <path d="M40,120 L43,127 L50,128 L45,133 L46,140 L40,137 L34,140 L35,133 L30,128 L37,127 Z" fill="#0a0a0a"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="feature-content">
+                    <h2>Doživotná záruka</h2>
+                    <p>Vďaka prémiovej oceľovej konštrukcii poskytujeme doživotnú záruku na rám postele.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Configurator Section -->
+        <section class="configurator">
+            <div class="container">
+                <div class="configurator-header">
+                    <h1>Vytvorte si vlastnú posteľ</h1>
+                    <div class="steps">
+                        <div class="step active" data-step="1">
+                            <div class="step-number">1</div>
+                            <span>Rozmer</span>
+                        </div>
+                        <div class="step" data-step="2">
+                            <div class="step-number">2</div>
+                            <span>Materiál</span>
+                        </div>
+                        <div class="step" data-step="3">
+                            <div class="step-number">3</div>
+                            <span>Kontakt</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="configurator-content">
+                    <div id="step1" class="step-content active">
+                        <h2>Vyberte rozmer postele</h2>
+                        <div class="options-grid">
+                            <label class="option-card">
+                                <input type="radio" name="size" value="160x200" data-price="2790" checked>
+                                <div class="card-content">
+                                    <span class="option-title">160 × 200 cm</span>
+                                    <span class="option-subtitle">Dvojlôžko</span>
+                                    <span class="option-price">2 790 €</span>
+                                </div>
+                            </label>
+                            <label class="option-card">
+                                <input type="radio" name="size" value="180x200" data-price="2990">
+                                <div class="card-content">
+                                    <span class="option-title">180 × 200 cm</span>
+                                    <span class="option-subtitle">Dvojlôžko King</span>
+                                    <span class="option-price">2 990 €</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div id="step2" class="step-content">
+                        <h2>Vyberte materiál</h2>
+                        <div class="options-grid">
+                            <label class="option-card">
+                                <input type="radio" name="material" value="dub" data-price="0" checked>
+                                <div class="card-content">
+                                    <span class="option-title">Dub prírodný</span>
+                                    <span class="option-subtitle">Klasický vzhľad</span>
+                                    <span class="option-price">+ 0 €</span>
+                                </div>
+                            </label>
+                            <label class="option-card">
+                                <input type="radio" name="material" value="orech" data-price="200">
+                                <div class="card-content">
+                                    <span class="option-title">Orech tmavý</span>
+                                    <span class="option-subtitle">Elegantný dizajn</span>
+                                    <span class="option-price">+ 200 €</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div id="step3" class="step-content">
+                        <h2>Kontaktné údaje</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Meno a priezvisko</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" required>
+                                <label for="phone">Telefón</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="4"></textarea>
+                                <label for="message">Správa</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="configurator-footer">
+                    <button id="nextStepBtn" class="btn-primary">Pokračovať</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section class="key-features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <rect x="12" y="24" width="40" height="28" stroke="#1A1A1A" stroke-width="2"/>
+                                <rect x="16" y="28" width="32" height="20" stroke="#1A1A1A" stroke-width="2"/>
+                                <line x1="12" y1="38" x2="52" y2="38" stroke="#1A1A1A" stroke-width="2"/>
+                                <rect x="24" y="12" width="16" height="12" stroke="#1A1A1A" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Prémiová konštrukcia</h3>
+                        <p>Oceľový rám s doživotnou zárukou</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <rect x="12" y="20" width="40" height="24" stroke="#1A1A1A" stroke-width="2"/>
+                                <path d="M12 44L32 54L52 44" stroke="#1A1A1A" stroke-width="2"/>
+                                <path d="M32 20L32 54" stroke="#1A1A1A" stroke-width="2" stroke-dasharray="4 4"/>
+                                <path d="M12 20L32 10L52 20" stroke="#1A1A1A" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Skrytý úložný priestor</h3>
+                        <p>Praktické riešenie s kvalitným výklopom</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <rect x="16" y="12" width="32" height="40" stroke="#1A1A1A" stroke-width="2"/>
+                                <rect x="20" y="16" width="24" height="32" stroke="#1A1A1A" stroke-width="2"/>
+                                <path d="M20 24H44" stroke="#1A1A1A" stroke-width="2"/>
+                                <path d="M20 32H44" stroke="#1A1A1A" stroke-width="2"/>
+                                <path d="M20 40H44" stroke="#1A1A1A" stroke-width="2"/>
+                                <circle cx="32" cy="52" r="4" stroke="#1A1A1A" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Vymeniteľný dizajn</h3>
+                        <p>Možnosť kedykoľvek zmeniť vzhľad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specifications" id="specifikacie">
+            <div class="container">
+                <div class="spec-content">
+                    <h2>Špecifikácie</h2>
+                    <div class="spec-grid">
+                        <div class="spec-item">
+                            <h3>Konštrukcia</h3>
+                            <ul>
+                                <li>Oceľový rám s práškovou farbou</li>
+                                <li>Zosilnené rohové spoje</li>
+                                <li>Nosnosť až 800 kg</li>
+                            </ul>
+                        </div>
+                        <div class="spec-item">
+                            <h3>Úložný priestor</h3>
+                            <ul>
+                                <li>Výklopný mechanizmus s plynovými piestami</li>
+                                <li>Vetraný priestor s ochranou proti prachu</li>
+                                <li>Výška úložného priestoru 25 cm</li>
+                            </ul>
+                        </div>
+                        <div class="spec-item">
+                            <h3>Dizajn</h3>
+                            <ul>
+                                <li>Vymeniteľné drevené panely</li>
+                                <li>Masívne drevo - dub/orech</li>
+                                <li>Možnosť vlastnej povrchovej úpravy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="spec-image">
+                    <img src="bez-rostov.png" alt="Konštrukcia postele">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <p>MAGNATEBEDS s.r.o.</p>
+                    <p>Email: info@magnatebeds.sk</p>
+                    <p>Tel: +421 XXX XXX XXX</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/magnatebeds" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/magnatebeds" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Dokumenty</h3>
+                    <a href="/obchodne-podmienky">Obchodné podmienky</a>
+                    <a href="/ochrana-osobnych-udajov">Ochrana osobných údajov</a>
+                    <a href="/reklamacny-poriadok">Reklamačný poriadok</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MAGNATEBEDS. Všetky práva vyhradené.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
