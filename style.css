@@ -1154,4 +1154,38 @@ img {
 .form-group input:focus + label,
 .form-group textarea:focus + label {
     color: #1a1a1a;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+
+    .spec-item ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .spec-item li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .spec-item li:last-child {
+        border-bottom: none;
+    }
+}
+
+/* Desktop Specifications */
+@media (min-width: 769px) {
+    .spec-item ul {
+        list-style: disc;
+        padding-left: 1.2rem;
+    }
+
+    .spec-item li {
+        margin: 0.5rem 0;
+    }
 } 
